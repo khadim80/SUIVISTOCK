@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteRule ^produit$ src/view/produit.php
+RewriteRule ^inscription$ src/view/inscription.php
+RewriteRule ^ajoutProduit$ src/view/ajoutProduit.php
+RewriteRule ^modifierProduit$ src/view/modifierProduit.php
+RewriteRule ^rechercheProduit$ src/view/rechercheProduit.php
+RewriteRule ^accueil$ accueil.php
+RewriteRule ^index$ index.php
+RewriteRule ^ProduitController$ src/controller/ProduitController.php
+RewriteRule ^UserController$ src/controller/UserController.php
